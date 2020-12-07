@@ -66,6 +66,9 @@ Based on the following mockup :
 
 ## Auteurs
 * **Madeline** _alias_ [@MadelineHenry](https://github.com/MadelineHenry)
+* **Agnès** _alias_ [@Agkabongo](https://github.com/agkabongo)
+* **Sifedine** _alias_ [@Sifedine-Hajji](https://github.com/Sifedine-Hajji?tab=repositories)
+* **Richard** _alias_ [@]()
 
 With the help of the group 4 :gift_heart:
 Thanks again to them!
