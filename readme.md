@@ -46,34 +46,27 @@ etc.
 
 ## Strength
 
-- I learned intensively through this exercise and these difficulties.
-- The result is rather nice, when you have never done this before in your life and the coding is all new to you.
-- Using Framework is easy.
+- 
 
 ## Weaknesse
 
-- I didn't have a basic knowledge of JavaSript ...:disappointed:
-So it was hard for me to know which way to go.
-- I needed more time to finish the project 
+- 
 
 ## Advice
 
-Frameworks can make your life easier, but they can also make it more complicated.
 
-Remember to master HTML to make sure that some things in the framework are useful. The strength of an HTLM is in its clarity so always be efficient and concise.
 
 ## Visual
 Based on the following mockup : 
-![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main/img/mockup.png)
+![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main/img/.png)
 
-[collection](https://madelinehenry.github.io/09-PaintingCollection/.)
 
-![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main//img/PaintingCollection.png)
+![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main//img/.png)
  
 
 ## Auteurs
 * **Madeline** _alias_ [@MadelineHenry](https://github.com/MadelineHenry)
 
-With the help of the group Guillaume :gift_heart:
+With the help of the group 4 :gift_heart:
 Thanks again to them!
 
