@@ -3,55 +3,55 @@ let cards = [{
         name: 'Saumon',
         ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'sashimi'
 
     }, {
         name: 'Saumon Epicé',
         ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki thon rouge,6 maki thon, 6 california roll. 6 rainbow poulet, 6 california roll thon, 6 california roll , 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'california'
     }, {
         name: 'Saumon Paprika',
         ingredients: '2 sushi thon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'futomaki'
     }, {
         name: 'California',
         ingredients: '3 sushi thon, 3 sushi saumon, 3 sushi dorade,3 sushi king fish, 3 sushi crevette, 6 sashimi de saumon, 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'maki'
     }, {
         name: 'Tuna',
         ingredients: '2 sushi crevette, 2 sashimi crevette, 1 temaki crevette,6 maki crevette, 6 california roll crevette list item.6 rainbow poulet, 6 california roll thon, 6 california roll crevette, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'maki'
     }, {
         name: 'Thai Shrimp',
         ingredients: '2 sushi crevette, 2 sashimi crevette, 1 temaki crevette,6 maki crevette, 6 california roll crevette list item. 6 rainbow poulet, 6 california roll thon, 6 california roll crevette, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'sashimi'
     }, {
         name: 'Chicken',
         ingredients: '2 sushi poulet, 2 sashimi poulet, 1 temaki poulet,6 maki poulet, 6 california roll poulet list item. 6 rainbow poulet, 6 california roll thon, 6 california roll poulet, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png"
+        image: "./imagewireframe.jpg"
     }, {
         name: 'Shiso Tuna',
         ingredients: '2 sushi thon, 2 sashimi thon, 1 temaki thon,6 maki thon, 6 california roll thon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png",
+        image: "./imagewireframe.jpg",
         badge: 'california'
     }, {
         name: 'Shiso Chicken',
         ingredients: '2 sushi thon rouge, 2 sashimi thon rouge, 1 temaki thon rouge,6 maki thon rouge, 6 california roll thon rouge list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon rouge, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png"
+        image: "./imagewireframe.jpg"
     }
 
 ]
