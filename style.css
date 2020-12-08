@@ -1,12 +1,183 @@
-@font-face{ font-family: NightinTokyo; src:  url(/asset/fonts/night-in-tokyo.bold.ttf) }
+/*--------------------- General Part ------------------- */
+
+.card {
+    min-width: 20%;
+    max-width: 25%;
+    min-height: 180px;
+}
+
+.card-container {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.img-container {
+    max-height: 260px;
+}
+
+.card-footer {
+    color: blue;
+}
+
+.card-text {
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.sushiheader {
+    max-width: 100%;
+    height: 300px;
+}
+
+.badges {
+    display: flex;
+}
+
+.badge {
+    background-color: firebrick;
+    color : white;
+    margin: 10px;
+    font-size: large;
+    border-style: none;
+    outline: none;
+}
+
+
+
+.badge:focus {
+    outline: none;
+}
+
+.badge:hover {
+    background-color: rgb(139, 25, 25);
+}
 
 body{
     background-color: #090A0B;
+    color: white;
+    cursor: url(""), pointer;
 }
+
+@font-face{ 
+    font-family: NightinTokyo; 
+    src:url(./asset/fonts/night-in-tokyo.bold.ttf);
+}
+
+/*--------------------- Part1 : NavBar + Banner ------------------- */
+.part1{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    max-width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar-brand{
-    font-family: NightinTokyo;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: NightinTokyo; 
+    src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    opacity: 100%;
 }
+
+li{
+    color: white;
+    padding-right: 50px;  
+}
+
+li:hover{
+    text-decoration: line-through ;
+    color: white;
+}
+
+.titleBanner{ 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(29, 28, 28, 0.5); 
+}
+
+.restoName{
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 100px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*--------------------- Part2 : Order ------------------- */
+
+.part2{
+    height: 2000px;
+    width: 1500px;
+    background-color: rgb(29, 28, 28); 
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.sushiTitle{
+    font-family: NightinTokyo; 
+    src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 50px;
+}
+
+.sushiText{
+    font-size: 18px;
+}
+
+.right{
+    position: absolute;
+    text-align:right;
+    display: flex;
+    flex-direction: column;
+    padding-left: 900px;
+}
+
+.bowl{
+    height:200px;
+    width: 400px;
+}
+.sushi1{
+    height:100px;
+    width: 180px;
+}
+
+.sushi2{
+    height:70px;
+    width: 150px;
+}
+
+.sushi3{
+    height: 70px;
+    width: 150px;
+}
+.buttonOrder{
+    
+}
+
+/* MENU HORAIRE CSS */
 h1{
     text-align: center;
     color: white;
