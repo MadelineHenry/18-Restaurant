@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    cursor: url(""), pointer;
+}
+
+@font-face {
+    font-family: NightinTokyo;
+    src: url("./asset/fonts/night-in-tokyo.bold.ttf");
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: NightinTokyo;
+    opacity: 1;
+}
+
+li {
+    color: white;
+    padding-right: 50px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    color: white;
+}
+
+.titleBanner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(29, 28, 28, 0.5);
+}
+
+.restoName {
+    font-family: NightinTokyo;
+    font-size: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 {
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    flex-direction: row;
+    position: static;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 65%;
+    padding-left: 15%;
+}
+
+.sushiTitle {
+    font-family: NightinTokyo;
+    font-size: 50px;
+    text-align: left;
+}
+
+.sushiText {
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.right {
+    width: 50%;
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70%;
+    padding-left: 15%;
+}
+
+.bowl {
+    height: 20%;
+    width: 50%;
+}
+
+.sushi1 {
+    height: 12%;
+    width: 25%;
+}
+
+.sushi2 {
+    height: 10%;
+    width: 20%;
+}
+
+.sushi3 {
+    height: 7%;
+    width: 15%;
+}
+
+.buttonOrder {
+    height: 20%;
+    width: 60%;
+}
