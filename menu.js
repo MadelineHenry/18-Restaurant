@@ -118,7 +118,7 @@ ListOfCards();
 (function () {
     const buttons = document.querySelectorAll('.btn')
     const storeItems = document.querySelectorAll('.store-item')
-    console.log(buttons)
+
     buttons.forEach(function (button) {
         button.addEventListener('click', function (e) {
             //prevent the default link jump to top of page
@@ -206,12 +206,13 @@ let storeItems = document.querySelectorAll('.store-item')
 storeItems.forEach((item) => {
 
          let regex = /Saumon/gmi
-         let result = item.innerText.match(regex)
-         if (1) {
+         let itemText = item.innerText
+         let result = itemText.match(regex)
+         if (result === 0) {
             item.style.display = 'none'
          } else {
              item.style.display = 'block'
          }
-         return result
+         return console.log(result)
     }) }
 })
