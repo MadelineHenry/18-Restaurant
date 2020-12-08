@@ -1,8 +1,77 @@
-@font-face{ 
-    font-family: NightinTokyo; 
-    src:  url(/asset/fonts/night-in-tokyo.bold.ttf) 
+body{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    cursor: url('votre_curseur_perso.cur'), pointer;;
 }
 
-h1{
-    font-family: NightinTokyo;
+@font-face{ 
+    font-family: NightinTokyo; src:  url(./asset/fonts/night-in-tokyo.bold.ttf) 
+}
+
+.banner{
+    max-width: 100%;
+    position: absolute;
+}
+
+/*.part1{
+    height:1000px;
+    width: 100%;
+    background-color:  rgb(29, 28, 28, 0.5);
+    background-image: url(./asset/img/rod-long-kImU-9S9uh8-unsplash.jpg);
+    background-repeat: no-repeat;
+	background-position: left;
+    background-size: cover;
+
+}*/
+
+.navbar-brand{
+    font-size: 50px;
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    opacity: 100%;
+}
+
+li{
+    color: white;
+    padding-right: 50px;  
+}
+
+li:hover{
+    text-decoration: line-through ;
+    color: white;
+}
+
+.title{ 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(29, 28, 28, 0.5);
+    
+}
+
+.restoName{
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 100px;
+    padding-top: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.part2{
+    height:1000px;
+    width: 1000px;
+}
+
+.sushiTitle{
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 50px;
+}
+.sushiText{
+    font-size: 18px;
+    text-align: 
+
 }
