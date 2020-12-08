@@ -19,7 +19,7 @@
     row-gap: 20px;
 }
 
-img {
+.img-container {
     max-height: 260px;
 }
 
