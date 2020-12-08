@@ -55,7 +55,8 @@ img {
 
 .badge:hover {
     background-color: rgb(139, 25, 25);
-=======
+}
+
 body{
     background-color: rgb(29, 28, 28);
     color: white;
@@ -130,5 +131,5 @@ p{
 }
 .sushiText{
     font-size: 18px;
-    text-align: 
+    text-align: left;
 }
