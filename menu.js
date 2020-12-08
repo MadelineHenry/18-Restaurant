@@ -170,25 +170,24 @@ buttons.forEach(function (button) {
 
 const searchIcon = document.querySelector('#search-icon')
 const searchBox = document.querySelector('#search-item')
-let storeItems = document.querySelectorAll('.store-item')
+let storeItems = document.querySelector('.card-container').childNodes
 let i = 0 
 
 searchIcon.addEventListener('click', searchbar)
 
+
+
 function searchbar(){
-storeItems.forEach((item) => {
-    
-    console.log(searchBox.value)
-    // Regex Saumon 
-    //let regex = new RegExp("/"+ searchBox.value +"/","gmi");
-    let regex = /chicken/gmi
-    let result = regex.test(item.innerText)
-    if (result === true ) {
-        item.style.display = 'block'
-        console.log(item)
-    } else {
-        item.style.display = 'none'
-    }
-    
-})
+
+    storeItems.forEach((element) => {
+        console.log(element.innerText)
+        if (element.innerText.toLowerCase().includes(searchBox.value.toLowerCase())=== true){
+
+            element.style.display = 'block'
+
+        } else  {
+            element.style.display = 'none'
+        }
+        return element
+    })
 }
