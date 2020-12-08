@@ -15,9 +15,10 @@ body{
     display: flex;
     flex-direction: column;
     position: static;
+
 }
 .banner{
-    max-width: 100%;
+    width: 100%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -53,11 +54,15 @@ li:hover{
     font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
     font-size: 100px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
     font-size: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /*--------------------- Part2 : Order ------------------- */
@@ -66,14 +71,20 @@ p{
     width: 100%;
     background-color: rgb(29, 28, 28); 
     display: flex;
+    flex-direction: row;
     position: static;
-    top: 600px;
+    align-items: center;
 }
 
 .left{
     width: 50%;
     position: relative;
     text-align:left;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 65%;
+    padding-left: 15%;
 }
 
 .sushiTitle{
@@ -89,34 +100,34 @@ p{
 }
 
 .right{
-    height: 1000px;
     width: 50%;
     position: relative;
     text-align:right;
     display: flex;
     flex-direction: column;
-
+    padding-top: 70%;
+    padding-left: 15%;
 }
 
 .bowl{
-    height:200px;
-    width: 400px;
+    height:20%;
+    width: 50%;
 }
 .sushi1{
-    height:150px;
-    width: 230px;
-
+    height:12%;
+    width: 25%;
 }
 
 .sushi2{
-    height:100px;
-    width: 180px;
+    height:10%;
+    width: 20%;
 }
 
 .sushi3{
-    height: 70px;
-    width: 150px;
+    height: 7%;
+    width: 15%;
 }
 .buttonOrder{
-    
+    height: 20%;
+    width: 60%;
 }
