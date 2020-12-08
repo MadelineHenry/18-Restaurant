@@ -4,52 +4,52 @@ let cards = [{
         ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'sashimi'
+        badge: 'sashimi'
 
     }, {
         name: 'Saumon Epicé',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki thon rouge,6 maki thon, 6 california roll. 6 rainbow poulet, 6 california roll thon, 6 california roll , 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'california'
+        badge: 'california'
     }, {
         name: 'Saumon Paprika',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi thon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
-        image: "./imagewireframe.png", 
+        image: "./imagewireframe.png",
         badge: 'futomaki'
     }, {
         name: 'California',
         ingredients: '3 sushi thon, 3 sushi saumon, 3 sushi dorade,3 sushi king fish, 3 sushi crevette, 6 sashimi de saumon, 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'maki'
+        badge: 'maki'
     }, {
         name: 'Tuna',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item.6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi crevette, 2 sashimi crevette, 1 temaki crevette,6 maki crevette, 6 california roll crevette list item.6 rainbow poulet, 6 california roll thon, 6 california roll crevette, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'maki'
+        badge: 'maki'
     }, {
         name: 'Thai Shrimp',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi crevette, 2 sashimi crevette, 1 temaki crevette,6 maki crevette, 6 california roll crevette list item. 6 rainbow poulet, 6 california roll thon, 6 california roll crevette, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'sashimi'
+        badge: 'sashimi'
     }, {
         name: 'Chicken',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi poulet, 2 sashimi poulet, 1 temaki poulet,6 maki poulet, 6 california roll poulet list item. 6 rainbow poulet, 6 california roll thon, 6 california roll poulet, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png"
     }, {
         name: 'Shiso Tuna',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi thon, 2 sashimi thon, 1 temaki thon,6 maki thon, 6 california roll thon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png",
-        badge : 'california'
+        badge: 'california'
     }, {
         name: 'Shiso Chicken',
-        ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish.',
+        ingredients: '2 sushi thon rouge, 2 sashimi thon rouge, 1 temaki thon rouge,6 maki thon rouge, 6 california roll thon rouge list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon rouge, 8 masago roll scampis, 8 rainbow king fish.',
         price: 6.50,
         image: "./imagewireframe.png"
     }
@@ -65,14 +65,14 @@ let cardContainer;
 let createCard = (task) => {
 
     let card = document.createElement('div');
-    card.classList.add('card','store-item', task.badge);
+    card.classList.add('card', 'store-item', task.badge);
     card.setAttribute('data-item', task.badge)
     let img_container = document.createElement('div');
     img_container.className = 'img-container'
 
     let card_img = document.createElement('img')
     card_img.src = task.image
-    
+
     let cardBody = document.createElement('div');
     cardBody.className = 'card-body';
 
@@ -87,7 +87,7 @@ let createCard = (task) => {
 
     let price = document.createElement('div');
     price.innerHTML = task.price + '€'
-    
+
 
 
     cardBody.appendChild(item_name);
@@ -167,52 +167,26 @@ ListOfCards();
     })
 })();
 
-
-//filter search box
-(function () {
-
-    const searchBox = document.querySelector('#search-item')
-    const storeItems = document.querySelectorAll('.store-item')
-
-    searchBox.addEventListener('keyup', (e) => {
-
-        const searchFilter = e.target.value.toLowerCase()
-        //display only items that contain filter input
-
-        storeItems.forEach((item) => {
-            if (item.innerText.includes(searchFilter)) {
-                item.style.display = 'block'
-            } else {
-                item.style.display = 'none'
-            }
-        })
-    })
-
-})
-
-/*let store = document.querySelectorAll('.store-item')
-store.forEach( function (item){
-    console.log(item.innerText)
-
-})*/
-
-
-
+const searchIcon = document.querySelector('#search-icon')
 const searchBox = document.querySelector('#search-item')
-searchBox.addEventListener('keypress', (e) => {
-
-    if(e.code === 'Enter' ) {
 let storeItems = document.querySelectorAll('.store-item')
-storeItems.forEach((item) => {
 
-         let regex = /Saumon/gmi
-         let itemText = item.innerText
-         let result = itemText.match(regex)
-         if (result === 0) {
+searchIcon.addEventListener('click', searchbar)
+
+function searchbar(){
+
+    storeItems.forEach((item) => {
+        console.log(searchBox.value)
+        // Regex Saumon 
+        let regex = new RegExp("/"+ searchBox.value +"/","gmi");
+        //let regex = /${Saumon}/gmi
+        let itemText = item.innerHTML
+        let result = regex.match(itemText)
+        if (result === true) {
+            item.style.display = 'block'
+        } else {
             item.style.display = 'none'
-         } else {
-             item.style.display = 'block'
-         }
-         return console.log(result)
-    }) }
-})
+        }
+        console.log(result)
+    })
+}
