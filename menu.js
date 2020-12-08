@@ -81,11 +81,12 @@ item_name.innerText = task.name;
 item_name.className = 'card-title';
 item_name.dataset.name = task.name
 
-let detail = document.createElement('div');
+let detail = document.createElement('p');
 detail.innerText = task.ingredients;
 detail.className = 'card-text';
 
 let price = document.createElement('div');
+price.className = 'price'
 price.innerHTML = task.price + '€'
 
 
@@ -170,23 +171,24 @@ buttons.forEach(function (button) {
 const searchIcon = document.querySelector('#search-icon')
 const searchBox = document.querySelector('#search-item')
 let storeItems = document.querySelectorAll('.store-item')
+let i = 0 
 
 searchIcon.addEventListener('click', searchbar)
 
 function searchbar(){
-
 storeItems.forEach((item) => {
+    
     console.log(searchBox.value)
     // Regex Saumon 
-    let regex = new RegExp("/"+ searchBox.value +"/","gmi");
-    //let regex = /${Saumon}/gmi
-    let itemText = item.innerHTML
-    let result = regex.match(itemText)
-    if (result === true) {
+    //let regex = new RegExp("/"+ searchBox.value +"/","gmi");
+    let regex = /chicken/gmi
+    let result = regex.test(item.innerText)
+    if (result === true ) {
         item.style.display = 'block'
+        console.log(item)
     } else {
         item.style.display = 'none'
     }
-    console.log(result)
+    
 })
 }
