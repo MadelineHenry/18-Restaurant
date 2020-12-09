@@ -52,9 +52,7 @@ let cards = [{
     ingredients: '2 sushi thon rouge, 2 sashimi thon rouge, 1 temaki thon rouge,6 maki thon rouge, 6 california roll thon rouge list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon rouge, 8 masago roll scampis, 8 rainbow king fish.',
     price: 6.50,
     image: "./imagewireframe.jpg"
-}
-
-]
+}]
 
 
 let cardContainer;
