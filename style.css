@@ -23,7 +23,7 @@ body{
 
 .card:hover .overlay {
     height: 100%;
-
+}
 .card-container {
     display: flex;
     margin: 50px;
@@ -35,7 +35,6 @@ body{
     column-gap: 20px;
     row-gap: 20px;
 }
-
 
 .img_card {
     display: block;
@@ -220,10 +219,6 @@ p{
     height: 70px;
     width: 150px;
 }
-.buttonOrder{
-    
-}
-
 
 /* --------------------MENU HORAIRE CSS---------------------- */
 h1{
@@ -344,10 +339,7 @@ textarea {
     .form-title {
         font-size: 20px;
    }
-  
-    padding-right: 10px;
-}
-
+    
 .btn{
     border: black;
     border-radius: 20px;
