@@ -249,7 +249,29 @@ p{
 .phrase_Ouvert_Fermer{
     padding-left: 10px;
 }
+    
+.btn{
+    border: black;
+    border-radius: 20px;
+    background-color: #EF5350;
+    color: white;
+}
 
+.schedulebtn:hover{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #EF5350;
+}
+span{
+    color: white;
+}
+.ubereatsLogo{
+    width: 100px;
+}
+.deliverooLogo{
+    width: 100px;
+
+}
 /*--------------------------------- PAGE : CONTACT ----------------------------------- */
 /*CONTACT CONTAINER*/
 
@@ -339,27 +361,6 @@ textarea {
     .form-title {
         font-size: 20px;
    }
-    
-.btn{
-    border: black;
-    border-radius: 20px;
-    background-color: #EF5350;
-    color: white;
-}
-
-.schedulebtn:hover{
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: #EF5350;
-}
-span{
-    color: white;
-}
-.ubereatsLogo{
-    width: 100px;
-}
-.deliverooLogo{
-    width: 100px;
 
 }
 
