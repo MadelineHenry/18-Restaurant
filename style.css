@@ -1,12 +1,29 @@
 
+@font-face{ 
+    font-family: NightinTokyo; 
+    src:url(./asset/fonts/night-in-tokyo.bold.ttf);
+}
+
+body{
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 11px,rgba(255,255,255,0.04) 11px, rgba(255,255,255,0.04) 19px,transparent 19px, transparent 29px,rgba(255,255,255,0.04) 29px, rgba(255,255,255,0.04) 33px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 5px,rgb(0,0,0) 5px, rgb(0,0,0) 17px,rgb(0,0,0) 17px, rgb(0,0,0) 30px,rgb(0,0,0) 30px, rgb(0,0,0) 43px,rgb(0,0,0) 43px, rgb(0,0,0) 45px,rgb(0,0,0) 45px, rgb(0,0,0) 47px); background-size: 53px 53px;
+    color: white; 
+}
+
 /*--------------------- General Part ------------------- */
 
 .card {
-    min-width: 20%;
-    max-width: 25%;
-    min-height: 180px;
+    min-width: 22%;
+    max-width: 24%;
+    min-height: 320px;
+    color : #fff;
+    position: relative;
+    border-style: none;
+    border-radius: 40px 40px 1px 1px;
 }
 
+.card:hover .overlay {
+    height: 100%;
+}
 .card-container {
     display: flex;
     margin: 50px;
@@ -19,19 +36,57 @@
     row-gap: 20px;
 }
 
+.img_card {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 40px 1px 1px;
+}
+
 .img-container {
-    height: 100vh;
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
 }
 
-.card-footer {
-    color: blue;
+.card-body p {
+    padding: 10px;
 }
 
-.card-text {
-    font-size: small;
+.price {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     margin-bottom: 20px;
+    overflow: hidden;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
 }
 
+.card-title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #EF5350;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    transition: .5s ease;
+    border-radius: 40px 40px 1px 1px;
+}
 .sushiheader {
     max-width: 100%;
     height: 300px;
@@ -58,16 +113,6 @@
     background-color: rgb(139, 25, 25);
 }
 
-body{
-    background-color: rgb(29, 28, 28);
-    color: white;
-    cursor: url("./asset/img/8f35d8ef072d7dc88d1163989b022976.png"), pointer;
-}
-
-@font-face{ 
-    font-family: NightinTokyo; 
-    src:url(./asset/fonts/night-in-tokyo.bold.ttf);
-}
 
 /*--------------------- Part1 : NavBar + Banner ------------------- */
 .part1{
@@ -252,6 +297,147 @@ p{
     position: relative;
 }
 
+/* --------------------MENU HORAIRE CSS---------------------- */
+h1{
+    text-align: center;
+    color: white;
+    font-family: NightinTokyo;
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+
+
+h3{
+    font-family: NightinTokyo; 
+}
+p{
+    font-size: 20px;
+}
+
+.contenaire_horaire{
+    color: white;
+    display: flex;
+    background-color: #3C3C3C;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.phrase_Ouvert_Fermer{
+    padding-left: 10px;
+}
+.btn{
+    border: black;
+    border-radius: 20px;
+    background-color: #EF5350;
+    color: white;
+}
+
+.schedulebtn:hover{
+    border-radius: 20px;
+    text-decoration: none;
+}
+span{
+    color: white;
+}
+.ubereatsLogo{
+    width: 100px;
+}
+.deliverooLogo{
+    width: 100px;
+
+}
+/*--------------------------------- PAGE : CONTACT ----------------------------------- */
+/*CONTACT CONTAINER*/
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    width: 70%;
+    float: right;
+}
+
+.map {
+    float: left;
+    margin-top: 40px;
+}
+
+/*CONTACT FORM*/
+
+
+#success-message {
+    opacity: 0;
+}
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding: 0 10% 0 10%;
+}
+.margin-top-25 {
+    margin-top: 25px;
+}
+.form-title {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    }
+.form-group .form-control {
+    border-bottom: 1px;
+    border-style: none none solid none;
+    border-radius: 0;
+    border-color: #000;
+}
+.form-group .form-control:focus {
+    box-shadow: none;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+}
+textarea {
+    resize: none;
+}
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+} 
+
+.btn-mod.btn-border {
+    color: #fff;
+    border: 1px solid rgba(238, 107, 107, 0.9);
+    background: transparent;
+}
+.btn-mod, a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: rgba(238, 107, 107, 0.9);
+    border: 1px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 0;
+    box-shadow: none;
+    
+}
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+    color: #fff;
+    border-color: #000;
+    background: rgba(238, 107, 107, 0.9);
+    outline: none;
+} 
+@media only screen and (max-width: 500px) {
+    .btn-mod.btn-large {
+        padding: 6px 16px;
+        font-size: 11px;
+   }
+    .form-title {
+        font-size: 20px;
+   }
+}
+
 .timetableList li{
     position: relative;
     left: -40px;
@@ -275,5 +461,4 @@ p{
 
 footer{
     display: block;
-
 }
