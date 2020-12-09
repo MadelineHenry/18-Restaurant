@@ -61,7 +61,7 @@
 body{
     background-color: rgb(29, 28, 28);
     color: white;
-    cursor: url("./asset/img/8f35d8ef072d7dc88d1163989b022976.png");
+    cursor: url("./asset/img/8f35d8ef072d7dc88d1163989b022976.png"), pointer;
 }
 
 @font-face{ 
@@ -216,21 +216,26 @@ p{
 .contactInfo{
     display: flex;
     margin: 20px auto;
+    justify-content: center;
 }
 
 .adressTitle, .timetableTitle{
     font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
     font-size: 35px;
     margin-bottom: 20px;
+    position: relative;
+    padding-top: 40% ;
 }
 
 .contact-title{
-    margin: 50px auto;
+    margin: 45px 40%;
     position: absolute;
+
 }
 
 .adressText{
     margin-bottom: 20px;
+    position: relative;
 }
 
 .adress{
