@@ -1,5 +1,5 @@
-//Work to get the filter buttons working
-let cards = [{
+
+let cards= [{
     name: 'Saumon',
     ingredients: '2 sushi saumon, 2 sashimi saumon, 1 temaki saumon,6 maki saumon, 6 california roll saumon list item. 6 rainbow poulet, 6 california roll thon, 6 california roll saumon, 8 masago roll scampis, 8 rainbow king fish. ',
     price: 6.50,
@@ -51,9 +51,7 @@ let cards = [{
     ingredients: '2 sushi thon rouge, 2 sashimi thon rouge, 1 temaki thon rouge,6 maki thon rouge, 6 california roll thon rouge list item. 6 rainbow poulet, 6 california roll thon, 6 california roll thon rouge, 8 masago roll scampis, 8 rainbow king fish.',
     price: 6.50,
     image: "https://images.unsplash.com/photo-1558540718-b2303795e6e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=85"
-}
-
-]
+}]
 let cardContainer;
 
 //CREATE CARDS
