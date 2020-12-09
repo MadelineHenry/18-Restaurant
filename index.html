@@ -14,13 +14,14 @@
 </head>
 
 <body>
-<!-- ------------------- Part 1 : Navbar + banner ------------------- -->
-    <div class= "part1">
+    <!-- ------------------- Part 1 : Navbar + banner ------------------- -->
+    <div class="part1">
         <img class="banner" src="./asset/img/rod-long-kImU-9S9uh8-unsplash.jpg" alt="cooker">
-<!-- ------------------- NavBar ------------------- -->    
+        <!-- ------------------- NavBar ------------------- -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">MAKIHOPPER</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -45,43 +46,108 @@
                 </ul>
             </div>
         </nav>
-
-
-        <!-- ===================== POPUP PARTNERS LIVRAISON ==================== -->
-<!-- ------------------- Banner ------------------- --> 
+        <!-- ------------------- Banner ------------------- -->
         <div class="titleBanner">
             <h1 class="restoName">MakiHopper</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br> Amet repellendus ipsum voluptatem eligendi, a rem cumque architecto! </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br> Amet repellendus ipsum voluptatem
+                eligendi, a rem cumque architecto! </p>
         </div>
     </div>
-<!-- ------------------- Part2 : Order ------------------- -->
-    <div class= "part2">
-        <section class="left">   
+
+    <!-- ------------------- Part2 : Order ------------------- -->
+    <div class="part2">
+        <div class="orderLeft">
             <h1 class="sushiTitle">Our Sushis</h1>
-            <p class="sushiText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eos veritatis voluptatem totam vitae, corporis doloremque vel? Pariatur molestiae maiores itaque modi perspiciatis delectus voluptates asperiores illum. Dolorum, repellat nisi?</p>
+            <p class="sushiText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eos veritatis voluptatem
+                totam vitae, corporis doloremque vel? Pariatur molestiae maiores itaque modi perspiciatis delectus
+                voluptates asperiores illum. Dolorum, repellat nisi?</p>
             <button type="buttonOrder" class="btn btn-secondary btn-lg" href="menu.html">Order</button>
-        </section>
-        <section class="right">
+        </div>
+        <div class="orderRight">
             <img class="sushi1" src="./asset/img/luigi-pozzoli-wmPDe9OnXT4-unsplash.png" alt="sushi">
             <img class="sushi2" src="./asset/img/luigi-pozzoli-wmPDe9OnXT4-unsplash.png" alt="sushi">
             <img class="sushi3" src="./asset/img/luigi-pozzoli-wmPDe9OnXT4-unsplash.png" alt="sushi">
             <img class="bowl" src="./asset/img/813a47563e15a3fc888274ae9d3cd5ff.png" alt="bowl">
-            </section>
+        </div>
     </div>
-<!-- ------------------- Popup partners livraison ------------------- -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Our Delivery Partners</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+
+    <!-- ------------------- Part3 : contact ------------------- -->
+    <div class="Part3">
+        <img src="./asset/img/pexels-mister-vampire-4248239.jpg" alt="sushi on plate" class="imagePart3">
+        <div class="contact-title">
+            <h1 class="sushiTitle"><a class="contactLink" href="contact.html">Contact</a></h1>
+        </div>
+        <div class="contactInfo">
+            <div class="adress">
+                <div class="adressTitle">
+                    <h2>Our adress</h2>
+                </div>
+                <div class="adressText">10 Cantersteen, 1000 Brussels</br>BELGIUM</div>
+                <div class="map">
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                        <a href="https://1map.com/fr/map-embed">1 Map</a>
                     </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row">
+                </div>
+            </div>
+            <div class="timetable">
+                <div class="timetableTitle">
+                    <h2>Opening Hours</h2>
+                </div>
+                <div class="timetableList">
+                    <ul>
+                        <li>Mon CLOSED</li>
+                        <li>Tue 12am - 15pm 18pm - 23pm</li>
+                        <li>Wed 12am - 15pm 18pm - 23pm</li>
+                        <li>Thu 12am - 15pm 18pm - 23pm</li>
+                        <li>Fri 12am - 15pm 18pm - 23pm</li>
+                        <li>Sat 12am - 23pm</li>
+                        <li>Sun 12am - 23pm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------- Part4 : Links ------------------- -->
+    <div class="part4">
+        <div class="logo">
+            <a href="#" title="Instagramme"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <!-- ------------------- Part5 : footer ------------------- -->
+    <footer class="part5">
+        <p>©2020 MakiHopper. All Rights Reserved.</p>
+        <nav>
+            <div>
+                <ul class="nav footer justify-content-end">
+                    <li class="footer-nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a class="nav-link" href="#">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- ------------------- Popup partners livraison ------------------- -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Our Delivery Partners</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
                             <div class="col">
                                 <h2>Deliveroo</h2>
                                 <img src="asset/img/deliveroo_logo.png" alt="">
@@ -90,23 +156,23 @@
                                 <h2>UberEats</h2>
                                 <img src="asset/img/uber-eats-logo-1.png" alt="">
                             </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
-  
 
-<!-- jQuery and JS bundle w/ Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src= "script.js"></script>
+            <!-- jQuery and JS bundle w/ Popper.js -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+                crossorigin="anonymous"></script>
+            <script src="script.js"></script>
 </body>
-
 
 </html>
