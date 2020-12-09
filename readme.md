@@ -46,7 +46,7 @@ etc.
 
 ## Strength
 
-- 
+- ALL
 
 ## Weaknesse
 
