@@ -89,12 +89,12 @@ body{
     opacity: 100%;
 }
 
-li{
+.nav-item a, .contactLink{
     color: white;
     padding-right: 50px;  
 }
 
-li:hover{
+.nav-item a:hover, .contactLink:hover{
     text-decoration: line-through ;
     color: white;
 }
@@ -199,106 +199,76 @@ p{
 }
 
 /*--------------------- Part3 : Contact ------------------- */
-.part3{
-    width: 100%;
-    background-color: rgb(29, 28, 28); 
+
+.imagePart3{
+    max-width: 100%;
     position: absolute;
-    display: flex;
-    flex-direction: row;  
-    text-align: center; 
 }
 
-
-.contactTitle{
+.Part3{
     width: 100%;
-    position: absolute;
-    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
-    color: white;
-    font-size: 50px;
-    margin-top: 5%;
-}
-
-.contactTitle:hover{
-    text-decoration: line-through ;
-    color: white;
-}
-.contactTitle:visited{
-    text-decoration: line-through ;
-    color: white;
-}
-
-.timetableBanner{
-    width: 100%;
-    position: absolute;
     display: flex;
     flex-direction: column;
-    opacity: 70%;
+    position: relative;
+    top: 0;
 }
 
-.adressTitle{
-    width: 50%;
+.contactInfo{
+    display: flex;
+    margin: 20px auto;
+}
+
+.adressTitle, .timetableTitle{
     font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
-    font-size: 40px;
-    text-align: left;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 25%;
-     
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
-#adressText{
-    text-align: left;
+.contact-title{
+    margin: 50px auto;
+    position: absolute;
+}
+
+.adressText{
+    margin-bottom: 20px;
 }
 
 .adress{
-    width: 50%;
-    margin-top: 20%; 
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 25%;
-
-}
-
-.timetableTilte{
-    width: 100%;
-    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
-    font-size: 40px;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 15%;
-    
-}
-
-.timetable li{
-    list-style-type: none;
-    text-align: left;
-    padding-left: 35%;
+    width: 45%;
+    margin: 0 50px;
 }
 
 .timetable{
-    width: 100%;
-    margin-top:20%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-left: 15%;
+    width: 49%;
+    margin: 0 50px;
 }
+
+.timetableList ul{
+    position: relative;
+}
+
+.timetableList li{
+    position: relative;
+    left: -40px;
+    margin: 0;
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 18px;
+
+}
+
+
 
 /*--------------------- Part4 : links ------------------- */
 .part4{
-    display: flex;
+/*    display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 55%;
-}
-.logo img {
-    width:  60px;
-    height: 60px;
-    position: relative;
+    justify-content: center;*/
+    padding-top: 2%;
 }
 /*--------------------- Part5 : footer ------------------- */
-.nav-item{
-    color: white;
+
+footer{
+    display: block;
+
 }
