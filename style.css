@@ -1,5 +1,14 @@
-/*--------------------- General Part ------------------- */
+@font-face{ 
+    font-family: NightinTokyo; 
+    src:url(./asset/fonts/night-in-tokyo.bold.ttf);
+}
+body{
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 11px,rgba(255,255,255,0.04) 11px, rgba(255,255,255,0.04) 19px,transparent 19px, transparent 29px,rgba(255,255,255,0.04) 29px, rgba(255,255,255,0.04) 33px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 5px,rgb(0,0,0) 5px, rgb(0,0,0) 17px,rgb(0,0,0) 17px, rgb(0,0,0) 30px,rgb(0,0,0) 30px, rgb(0,0,0) 43px,rgb(0,0,0) 43px, rgb(0,0,0) 45px,rgb(0,0,0) 45px, rgb(0,0,0) 47px); background-size: 53px 53px;
+    color: white;
+    cursor: url(""), pointer;
+}
 
+/*--------------------- General Part ------------------- */
 .card {
     min-width: 20%;
     max-width: 25%;
@@ -60,16 +69,6 @@
     background-color: rgb(139, 25, 25);
 }
 
-body{
-    background-color: #090A0B;
-    color: white;
-    cursor: url(""), pointer;
-}
-
-@font-face{ 
-    font-family: NightinTokyo; 
-    src:url(./asset/fonts/night-in-tokyo.bold.ttf);
-}
 
 /*--------------------- Part1 : NavBar + Banner ------------------- */
 .part1{
@@ -178,7 +177,7 @@ p{
     
 }
 
-/* MENU HORAIRE CSS */
+/* --------------------MENU HORAIRE CSS---------------------- */
 h1{
     text-align: center;
     color: white;
@@ -186,6 +185,13 @@ h1{
     font-size: 70px;
     margin-bottom: 0;
     padding-top: 50px;
+}
+
+h3{
+    font-family: NightinTokyo; 
+}
+p{
+    font-size: 20px;
 }
 .contenaire_horaire{
     color: white;
@@ -197,4 +203,29 @@ h1{
 }
 .phrase_Ouvert_Fermer{
     padding-left: 10px;
+    padding-right: 10px;
 }
+
+.btn{
+    border: black;
+    border-radius: 20px;
+    background-color: #EF5350;
+    color: white;
+}
+
+.schedulebtn:hover{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #EF5350;
+}
+span{
+    color: white;
+}
+.ubereatsLogo{
+    width: 100px;
+}
+.deliverooLogo{
+    width: 100px;
+}
+
+
