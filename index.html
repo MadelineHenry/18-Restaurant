@@ -18,7 +18,7 @@
     <div class="part1">
         <img class="banner" src="./asset/img/rod-long-kImU-9S9uh8-unsplash.jpg" alt="cooker">
         <!-- ------------------- NavBar ------------------- -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark barre_Menu">
             <a class="navbar-brand" href="#">MAKIHOPPER</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,14 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Order</a>
+                        <a class="nav-link" href="./menu.html">Order</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-outline-secondary btn-black" data-toggle="modal"
+                            data-target="#exampleModal">
                             Delivery
                         </button>
                     </li>
@@ -41,7 +42,9 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#Basket">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -61,7 +64,8 @@
             <p class="sushiText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eos veritatis voluptatem
                 totam vitae, corporis doloremque vel? Pariatur molestiae maiores itaque modi perspiciatis delectus
                 voluptates asperiores illum. Dolorum, repellat nisi?</p>
-            <button type="buttonOrder" class="btn btn-secondary btn-lg" href="menu.html">Order</button>
+            <button type="button" class="btn btn-secondary btn-lg bouton_Order"><a class="bouton_link"
+                    href="menu.html">Order</a></button>
         </div>
         <div class="orderRight">
             <img class="sushi1" src="./asset/img/luigi-pozzoli-wmPDe9OnXT4-unsplash.png" alt="sushi">
@@ -73,9 +77,9 @@
 
     <!-- ------------------- Part3 : contact ------------------- -->
     <div class="Part3">
-        <img src="./asset/img/pexels-mister-vampire-4248239.jpg" alt="sushi on plate" class="imagePart3">
+        <!-- <img src="./asset/img/pexels-mister-vampire-4248239.jpg" alt="sushi on plate" class="imagePart3"> -->
         <div class="contact-title">
-            <h1 class="sushiTitle"><a class="contactLink" href="contact.html">Contact</a></h1>
+            <h1 class="sushiTitle"><a class="contactLink " href="contact.html">Contact</a></h1>
         </div>
         <div class="contactInfo">
             <div class="adress">
@@ -109,25 +113,26 @@
         </div>
     </div>
 
-    <!-- ------------------- Part4 : Links ------------------- -->
-    <div class="part4">
-        <div class="logo">
-            <a href="#" title="Instagramme"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" title="Facebook"><i class="fab fa-twitter"></i></a>
+    <!-- ------------------- Part4 : footer ------------------- -->
+    <footer class="part4">
+        <div class="container_socialLinks">
+            <div class="social_Links">
+                <a class="insta" href="#" title="Instagramme"><i class="fab fa-3x fa-instagram"></i></a>
+                <a class="twitter" href="#" title="Twitter"><i class="fab fa-3x fa-twitter"></i></a>
+                <a class="fb" href="#" title="Facebook"><i class="fab fa-3x fa-facebook"></i></a>
+            </div>
         </div>
-    </div>
-    <!-- ------------------- Part5 : footer ------------------- -->
-    <footer class="part5">
-        <p>©2020 MakiHopper. All Rights Reserved.</p>
+        <div class="credits">
+            <p>©2020 MakiHopper. All Rights Reserved.</p>
+        </div>
         <nav>
             <div>
                 <ul class="nav footer justify-content-end">
                     <li class="footer-nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                        <a class="footer_link " aria-current="page" href="#">Privacy Policy</a>
                     </li>
                     <li class="footer-nav-item">
-                        <a class="nav-link" href="#">Terms of Service</a>
+                        <a class="footer_link" href="#">Terms of Service</a>
                     </li>
                 </ul>
             </div>
@@ -138,7 +143,7 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content bg-dark text-white">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Our Delivery Partners</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -150,15 +155,17 @@
                         <div class="row">
                             <div class="col">
                                 <h2>Deliveroo</h2>
-                                <img src="asset/img/deliveroo_logo.png" alt="">
+                                <img class="deliverooLogo" src="asset/img/deliveroo_logo.png" alt="">
                             </div>
                             <div class="col">
                                 <h2>UberEats</h2>
-                                <img src="asset/img/uber-eats-logo-1.png" alt="">
+                                <img class="ubereatsLogo" src="asset/img/uber-eats-logo-1.png" alt="">
+
+
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
