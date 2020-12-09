@@ -53,6 +53,7 @@ etc.
 - Coordination within the group for common-tag and class
 - We would have liked to make a cleaner and optimised code
 - Responsive part
+- shopping card
 
 ## Advice
 
@@ -62,7 +63,7 @@ etc.
 
 
 ## Visual
-Based on the following mockup : 
+Mockup : 
 ![image](https://xd.adobe.com/view/adfe8e53-76a5-430c-b168-096a1b099968-f8ad/?fullscreen)
 
 
