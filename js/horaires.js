@@ -20,17 +20,31 @@ const phrase_Ouvert_Fermer = document.createElement('div')
     phrase_Ouvert_Fermer.className = 'phrase_Ouvert_Fermer'
     contenaire.appendChild(phrase_Ouvert_Fermer)
 
-if (today.getHours() >= 12 && today.getHours() < 22 ){
+//======================== POPUP DE LHORAIRE ==========================//
+if(weekday[1] == weekday[today.getDay()]){
+    phrase_Ouvert_Fermer.style = 'color: red;'
+    phrase_Ouvert_Fermer.innerHTML +=  " (closed)"
 
+}else if (today.getHours() >= 12 && today.getHours() < 14 || today.getHours() >= 18 && today.getHours() < 23){
     phrase_Ouvert_Fermer.style = 'color:green'
-    phrase_Ouvert_Fermer.innerHTML +=  " (C'est ouvert) "
+    phrase_Ouvert_Fermer.innerHTML +=  " (open)"
 
 }else {
-
     phrase_Ouvert_Fermer.style = 'color: red;'
-    phrase_Ouvert_Fermer.innerHTML +=  " (C'est fermer) "
+    phrase_Ouvert_Fermer.innerHTML +=  " (closed)"
 }
 
+
+//====================== POPUP VOIR HORAIRE =======================//
+const boutonVoirPlus = document.createElement('button');
+    boutonVoirPlus.type = "button";
+    boutonVoirPlus.className = "btn btn-primary schedulebtn"
+    boutonVoirPlus.setAttribute("data-toggle", "modal");
+    boutonVoirPlus.setAttribute("data-target", "#HorairePopup");
+    boutonVoirPlus.textContent = "Schedule"
+    contenaire.appendChild(boutonVoirPlus);
+
+//===================== FONCTION HEURE DYNAMIQUE ======================//
 function UR_Start()
 {
 UR_Nu = new Date();
