@@ -20,7 +20,7 @@
 }
 
 .img-container {
-    max-height: 260px;
+    height: 100vh;
 }
 
 .card-footer {
@@ -61,7 +61,7 @@
 body{
     background-color: rgb(29, 28, 28);
     color: white;
-    cursor: url(""), pointer;
+    cursor: url("./asset/img/8f35d8ef072d7dc88d1163989b022976.png");
 }
 
 @font-face{ 
@@ -135,13 +135,13 @@ p{
     align-items: center;
 }
 
-.left{
+.orderLeft{
     width: 50%;
     position: relative;
     text-align:left;
     display: flex;
     flex-direction: column;
-    padding-top: 65%;
+    padding-top: 60%;
     padding-left: 15%;
 }
 
@@ -153,18 +153,19 @@ p{
 
 .sushiText{
     font-size: 18px;
-    padding-bottom: 20px;    
+    margin-bottom: 20px;    
     text-align: left;
 }
 
-.right{
+.orderRight{
     width: 50%;
     position: relative;
     text-align:right;
     display: flex;
     flex-direction: column;
-    padding-top: 70%;
-    padding-left: 15%;
+    margin-top: 70%;
+    margin-left: 15%;  
+    margin-bottom: 10%;
 }
 
 .bowl{
@@ -174,18 +175,130 @@ p{
 .sushi1{
     height:12%;
     width: 25%;
+    margin-left:20%;
+    transform: rotate(-30deg);
 }
 
 .sushi2{
-    height:10%;
+    height:1%;
     width: 20%;
+    margin-left:5%;
+    transform: rotate(-30deg);
 }
 
 .sushi3{
     height: 7%;
     width: 15%;
+    margin-left:28%;
+    transform: rotate(-30deg);
+
 }
 .buttonOrder{
     height: 20%;
     width: 60%;
+}
+
+/*--------------------- Part3 : Contact ------------------- */
+.part3{
+    width: 100%;
+    background-color: rgb(29, 28, 28); 
+    position: absolute;
+    display: flex;
+    flex-direction: row;  
+    text-align: center; 
+}
+
+
+.contactTitle{
+    width: 100%;
+    position: absolute;
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    color: white;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.contactTitle:hover{
+    text-decoration: line-through ;
+    color: white;
+}
+.contactTitle:visited{
+    text-decoration: line-through ;
+    color: white;
+}
+
+.timetableBanner{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+}
+
+.adressTitle{
+    width: 50%;
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+     
+}
+
+#adressText{
+    text-align: left;
+}
+
+.adress{
+    width: 50%;
+    margin-top: 20%; 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 25%;
+
+}
+
+.timetableTilte{
+    width: 100%;
+    font-family: NightinTokyo; src:url(./asset/fonts/night-in-tokyo.bold.ttf); 
+    font-size: 40px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+    
+}
+
+.timetable li{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 35%;
+}
+
+.timetable{
+    width: 100%;
+    margin-top:20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+/*--------------------- Part4 : links ------------------- */
+.part4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 55%;
+}
+.logo img {
+    width:  60px;
+    height: 60px;
+    position: relative;
+}
+/*--------------------- Part5 : footer ------------------- */
+.nav-item{
+    color: white;
 }
