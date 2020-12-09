@@ -3,10 +3,10 @@
     font-family: NightinTokyo; 
     src:url(./asset/fonts/night-in-tokyo.bold.ttf);
 }
+
 body{
     background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 11px,rgba(255,255,255,0.04) 11px, rgba(255,255,255,0.04) 19px,transparent 19px, transparent 29px,rgba(255,255,255,0.04) 29px, rgba(255,255,255,0.04) 33px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 5px,rgb(0,0,0) 5px, rgb(0,0,0) 17px,rgb(0,0,0) 17px, rgb(0,0,0) 30px,rgb(0,0,0) 30px, rgb(0,0,0) 43px,rgb(0,0,0) 43px, rgb(0,0,0) 45px,rgb(0,0,0) 45px, rgb(0,0,0) 47px); background-size: 53px 53px;
-    color: white;
-    cursor: url(""), pointer;
+    color: white; 
 }
 
 /*--------------------- General Part ------------------- */
@@ -23,7 +23,7 @@ body{
 
 .card:hover .overlay {
     height: 100%;
-
+}
 .card-container {
     display: flex;
     margin: 50px;
@@ -35,7 +35,6 @@ body{
     column-gap: 20px;
     row-gap: 20px;
 }
-
 
 .img_card {
     display: block;
@@ -220,10 +219,6 @@ p{
     height: 70px;
     width: 150px;
 }
-.buttonOrder{
-    
-}
-
 
 /* --------------------MENU HORAIRE CSS---------------------- */
 h1{
@@ -254,7 +249,27 @@ p{
 .phrase_Ouvert_Fermer{
     padding-left: 10px;
 }
+.btn{
+    border: black;
+    border-radius: 20px;
+    background-color: #EF5350;
+    color: white;
+}
 
+.schedulebtn:hover{
+    border-radius: 20px;
+    text-decoration: none;
+}
+span{
+    color: white;
+}
+.ubereatsLogo{
+    width: 100px;
+}
+.deliverooLogo{
+    width: 100px;
+
+}
 /*--------------------------------- PAGE : CONTACT ----------------------------------- */
 /*CONTACT CONTAINER*/
 
@@ -344,31 +359,5 @@ textarea {
     .form-title {
         font-size: 20px;
    }
-  
-    padding-right: 10px;
-}
-
-.btn{
-    border: black;
-    border-radius: 20px;
-    background-color: #EF5350;
-    color: white;
-}
-
-.schedulebtn:hover{
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: #EF5350;
-}
-span{
-    color: white;
-}
-.ubereatsLogo{
-    width: 100px;
-}
-.deliverooLogo{
-    width: 100px;
 
 }
-
-
