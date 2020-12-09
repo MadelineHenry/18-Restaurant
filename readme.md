@@ -46,29 +46,33 @@ etc.
 
 ## Strength
 
-- ALL
+- Style and design
 
 ## Weaknesse
 
-- 
+- Coordination within the group for common-tag and class
+- We would have liked to make a cleaner and optimised code
+- Responsive part
 
 ## Advice
 
+- Don't use a framework when you don't master them. 
+- Never hesitate to ask for help
+- Fontawesome.com it's much easier than searching for images on google for photoshop rework.:smirk:
 
 
 ## Visual
 Based on the following mockup : 
-![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main/img/.png)
+![image](https://xd.adobe.com/view/adfe8e53-76a5-430c-b168-096a1b099968-f8ad/?fullscreen)
 
 
-![image](https://github.com/madelinehenry/09-PaintingCollection/blob/main//img/.png)
+![image](https://madelinehenry.github.io/18-Restaurant/menu.html)
  
 
 ## Auteurs
 * **Madeline** _alias_ [@MadelineHenry](https://github.com/MadelineHenry)
 * **Agnès** _alias_ [@Agkabongo](https://github.com/agkabongo)
 * **Sifedine** _alias_ [@Sifedine-Hajji](https://github.com/Sifedine-Hajji?tab=repositories)
-* **Richard** _alias_ [@]()
 
 With the help of the group 4 :gift_heart:
 Thanks again to them!
