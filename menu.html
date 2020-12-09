@@ -29,7 +29,8 @@
                         <a class="nav-link" href="./menu.html">Order</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-outline-secondary btn-black" data-toggle="modal"
+                            data-target="#exampleModal">
                             Delivery
                         </button>
                     </li>
@@ -37,7 +38,9 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#Basket">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -81,7 +84,29 @@
 
     </section>
 
+    <!-- ===================== PANIER  ==================== -->
+
+<div class="modal fade" id="Basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Continue</button>
+          <button type="button" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- ===================== POPUP VOIR HORAIRE ==================== -->
+
     <main>
 
         <div class="modal fade" id="HorairePopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -208,7 +233,7 @@
 
 
 
-    <script src="./menu.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/horaires.js"></script>
 
     <!-- jQuery and JS bundle w/ Popper.js -->
@@ -220,3 +245,4 @@
     </script>
 </body>
 </html>
+
