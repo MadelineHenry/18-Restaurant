@@ -71,10 +71,11 @@ let img_container = document.createElement('div');
 img_container.className = 'img-container'
 
 let card_img = document.createElement('img')
+card_img.className = 'img_card'
 card_img.src = task.image
 
 let cardBody = document.createElement('div');
-cardBody.className = 'card-body';
+cardBody.classList.add('card-body', 'overlay');
 
 let item_name = document.createElement('h5');
 item_name.innerText = task.name;
@@ -87,7 +88,7 @@ detail.className = 'card-text';
 
 let price = document.createElement('div');
 price.className = 'price'
-price.innerHTML = task.price + '€'
+price.innerHTML = task.price.toFixed(2) + '€'
 
 
 
