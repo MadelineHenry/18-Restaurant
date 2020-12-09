@@ -62,12 +62,10 @@ etc.
 - Fontawesome.com it's much easier than searching for images on google for photoshop rework.:smirk:
 
 
-## Visual
-Mockup : 
-![image](https://xd.adobe.com/view/adfe8e53-76a5-430c-b168-096a1b099968-f8ad/?fullscreen)
+## Visual 
+[Mockup : ](https://xd.adobe.com/view/adfe8e53-76a5-430c-b168-096a1b099968-f8ad/?fullscreen)
 
-
-![image](https://madelinehenry.github.io/18-Restaurant/menu.html)
+[Githup Page](https://madelinehenry.github.io/18-Restaurant/menu.html)
  
 
 ## Auteurs
